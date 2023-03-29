@@ -19,9 +19,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_runtime_dependency 'sidekiq', '>= 4.0'
-  spec.add_runtime_dependency 'globalid', '>= 0.3.7', '< 0.5'
+  spec.add_runtime_dependency 'globalid', '>= 0.3.7'
   spec.add_runtime_dependency 'activejob', '>= 4.2.5'
-  spec.add_development_dependency 'bundler', '~> 1.12'
+  spec.add_development_dependency 'bundler', '>= 2'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.5'
   spec.add_development_dependency 'spbtv_code_style', '1.4.1'
